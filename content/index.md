@@ -1,3 +1,1 @@
-Hello testing this really
-
-[[Lecture/Day 2]]
+My own personal notes and reference base for my work as a Psychological Wellbeing Practitioner within the NHS. 

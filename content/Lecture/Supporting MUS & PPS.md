@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-02-24T16:30:34.057+00:00
-modified: 2026-02-24T20:46:50.322+00:00
+modified: 2026-02-24T20:48:43.555+00:00
 cssclasses: ""
 ---
 
@@ -94,39 +94,7 @@ Investigated the best language used to describe MUS by practioner
 ```mermaid
 graph LR
 
-    %% Nodes
-    Root["Best language to<br/>describe MUS"]:::root
-
-    Psych["Psychologists"]:::psych
-    Neuro["Neurologists"]:::neuro
-    Psychi["Psychiatrists<br/>(Mixed views)"]:::psychi
-
-    %% Connections
-    Root --> Psych
-    Root --> Neuro
-    Root --> Psychi
-
-    Psych --- P_Data["46% did not know<br/>best language to use"]:::term
-    
-    Neuro --- N_Data["100% endorsed<br/>'Functional'"]:::term
-
-    Psychi --- Ps_Data1["74% 'Somatoform disorder'"]:::term
-    Psychi --- Ps_Data2["37% 'Conversion disorder'"]:::term
-    Psychi --- Ps_Data3["26% 'Dissociation disorder'"]:::term
-```
-
-
-<br>
-
-
-```mermaid
-graph LR
-    %% Styling
-    classDef rootBox fill:#f0e68c,stroke:#fff,stroke-width:2px,color:#000,font-weight:bold,font-size:16px,text-align:center
-    classDef qBox fill:#4b70cc,stroke:none,color:#fff,font-size:16px,font-style:italic,text-align:center
-    classDef aBox fill:#dadef0,stroke:none,color:#000,font-size:16px,text-align:left
-
-    %% Root Node
+     Root Node
     Root["Question of<br/>Causation"]:::rootBox
 
     %% Question 1
@@ -137,7 +105,7 @@ graph LR
     Q2["Blocked out memories of<br/>past trauma results in<br/>Medically Unexplained<br/>Symptoms:"]:::qBox
     A2["• Psychiatrists 58% Agree 42% Somewhat agree<br/>• Neurologists 44% Agree 11.1% Somewhat agree<br/>• Psychologists 31.7% Agree 42.4% Somewhat agree"]:::aBox
     
-    %% Connections
+   
     Root --> Q1
     Q1 --- A1
 
