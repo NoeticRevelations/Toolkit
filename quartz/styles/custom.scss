@@ -1,3 +1,6 @@
+// 1. Import Baseline Typography (Inter)
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 @use "./base.scss";
 
 // put your custom CSS here!
@@ -7,8 +10,6 @@
 @use "./syntax.scss";
 @use "./callouts.scss";
 
-// 1. Import Baseline Typography (Inter)
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 // 2. Map Baseline UI Custom Variables
 :root {
