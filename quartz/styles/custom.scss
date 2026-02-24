@@ -103,4 +103,91 @@ body {
   color: var(--darkgray);
 }
 
+/* ------------------- */ 
+/* Custom Checkbox Styling & Icons */ 
+/* ------------------- */ 
+ 
+input[data-task='!']:checked, 
+input[data-task='*']:checked, 
+input[data-task='-']:checked, 
+input[data-task='<']:checked, 
+input[data-task='>']:checked, 
+input[data-task='I']:checked, 
+input[data-task='b']:checked, 
+input[data-task='c']:checked, 
+input[data-task='d']:checked, 
+input[data-task='f']:checked, 
+input[data-task='k']:checked, 
+input[data-task='l']:checked, 
+input[data-task='p']:checked, 
+input[data-task='u']:checked, 
+input[data-task='w']:checked, 
+li[data-task='!'] > input:checked, 
+li[data-task='!'] > p > input:checked, 
+li[data-task='*'] > input:checked, 
+li[data-task='*'] > p > input:checked, 
+li[data-task='-'] > input:checked, 
+li[data-task='-'] > p > input:checked, 
+li[data-task='<'] > input:checked, 
+li[data-task='<'] > p > input:checked, 
+li[data-task='>'] > input:checked, 
+li[data-task='>'] > p > input:checked, 
+li[data-task='I'] > input:checked, 
+li[data-task='I'] > p > input:checked, 
+li[data-task='b'] > input:checked, 
+li[data-task='b'] > p > input:checked, 
+li[data-task='c'] > input:checked, 
+li[data-task='c'] > p > input:checked, 
+li[data-task='d'] > input:checked, 
+li[data-task='d'] > p > input:checked, 
+li[data-task='f'] > input:checked, 
+li[data-task='f'] > p > input:checked, 
+li[data-task='k'] > input:checked, 
+li[data-task='k'] > p > input:checked, 
+li[data-task='l'] > input:checked, 
+li[data-task='l'] > p > input:checked, 
+li[data-task='p'] > input:checked, 
+li[data-task='p'] > p > input:checked, 
+li[data-task='u'] > input:checked, 
+li[data-task='u'] > p > input:checked, 
+li[data-task='w'] > input:checked, 
+li[data-task='w'] > p > input:checked { 
+  --checkbox-marker-color: transparent; 
+  --checkbox-icon: 100%;
+  border: none; 
+  border-radius: 0; 
+  background-image: none; 
+  background-color: currentColor; 
+  -webkit-mask-size: var(--checkbox-icon); 
+  -webkit-mask-position: 50% 50%; 
+} 
+input[data-task='>']:checked, 
+li[data-task='>'] > input:checked, 
+li[data-task='>'] > p > input:checked { 
+  color: var(--gray); 
+  transform: rotate(90deg); 
+  -webkit-mask-position: 50% 100%; 
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' viewBox='0 0 20 20' fill='currentColor'%3E%3Cpath d='M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z' /%3E%3C/svg%3E"); 
+} 
+input[data-task='<']:checked, 
+li[data-task='<'] > input:checked, 
+li[data-task='<'] > p > input:checked { 
+  color: var(--gray); 
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' viewBox='0 0 20 20' fill='currentColor'%3E%3Cpath fill-rule='evenodd' d='M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z' clip-rule='evenodd' /%3E%3C/svg%3E"); 
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' viewBox='0 0 20 20' fill='currentColor'%3E%3Cpath fill-rule='evenodd' d='M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z' clip-rule='evenodd' /%3E%3C/svg%3E"); 
+} 
+input[data-task='?']:checked, 
+li[data-task='?'] > input:checked, 
+li[data-task='?'] > p > input:checked { 
+  --checkbox-marker-color: transparent; 
+  background-color: var(--color-yellow); 
+  border-color: var(--color-yellow); 
+  background-position: 50% 50%; 
+  background-size: 200% 90%; 
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="20" height="20" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"%3E%3Cpath fill="white" fill-rule="evenodd" d="M4.475 5.458c-.284 0-.514-.237-.47-.517C4.28 3.24 5.576 2 7.825 2c2.25 0 3.767 1.36 3.767 3.215c0 1.344-.665 2.288-1.79 2.973c-1.1.659-1.414 1.118-1.414 2.01v.03a.5.5 0 0 1-.5.5h-.77a.5.5 0 0 1-.5-.495l-.003-.2c-.043-1.221.477-2.001 1.645-2.712c1.03-.632 1.397-1.135 1.397-2.028c0-.979-.758-1.698-1.926-1.698c-1.009 0-1.71.529-1.938 1.402c-.066.254-.278.461-.54.461h-.777ZM7.496 14c.622 0 1.095-.474 1.095-1.09c0-.618-.473-1.092-1.095-1.092c-.606 0-1.087.474-1.087 1.091S6.89 14 7.496 14Z"%2F%3E%3C%2Fsvg%3E'); 
+} 
+:root[saved-theme="dark"] input[data-task='?']:checked, 
+:root[saved-theme="dark"] li[data-task='?'] > input:checked, 
+:root[saved-theme="dark"] li[data-task='?'] > p > input:checked { 
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="20" height="20" preserveAspectRatio="xMidYMid meet" viewBox="0
 // (Keep the rest of your original base.scss.txt logic below this line)
