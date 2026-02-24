@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-02-24T16:30:34.057+00:00
-modified: 2026-02-24T15:02:43.908+00:00
+modified: 2026-02-24T20:46:50.322+00:00
 cssclasses: ""
 ---
 
@@ -93,12 +93,6 @@ Investigated the best language used to describe MUS by practioner
 
 ```mermaid
 graph LR
-    %% Styling
-    classDef root fill:#fcf3cf,stroke:#b7950b,stroke-width:2px,color:#000,font-weight:bold,font-size:16px
-    classDef psych fill:#ebdef0,stroke:#6c3483,stroke-width:2px,color:#000,font-weight:bold
-    classDef neuro fill:#e8f8f5,stroke:#117a65,stroke-width:2px,color:#000,font-weight:bold
-    classDef psychi fill:#eaf2f8,stroke:#2874a6,stroke-width:2px,color:#000,font-weight:bold
-    classDef term fill:#ffffff,stroke:#7f8c8d,stroke-width:1px,color:#000
 
     %% Nodes
     Root["Best language to<br/>describe MUS"]:::root
@@ -107,7 +101,27 @@ graph LR
     Neuro["Neurologists"]:::neuro
     Psychi["Psychiatrists<br/>(Mixed views)"]:::psychi
 
-     Styling
+    %% Connections
+    Root --> Psych
+    Root --> Neuro
+    Root --> Psychi
+
+    Psych --- P_Data["46% did not know<br/>best language to use"]:::term
+    
+    Neuro --- N_Data["100% endorsed<br/>'Functional'"]:::term
+
+    Psychi --- Ps_Data1["74% 'Somatoform disorder'"]:::term
+    Psychi --- Ps_Data2["37% 'Conversion disorder'"]:::term
+    Psychi --- Ps_Data3["26% 'Dissociation disorder'"]:::term
+```
+
+
+<br>
+
+
+```mermaid
+graph LR
+    %% Styling
     classDef rootBox fill:#f0e68c,stroke:#fff,stroke-width:2px,color:#000,font-weight:bold,font-size:16px,text-align:center
     classDef qBox fill:#4b70cc,stroke:none,color:#fff,font-size:16px,font-style:italic,text-align:center
     classDef aBox fill:#dadef0,stroke:none,color:#000,font-size:16px,text-align:left
