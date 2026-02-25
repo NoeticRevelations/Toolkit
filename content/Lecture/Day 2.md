@@ -1,13 +1,13 @@
 ---
 publish: true
-created: 2026-02-24T16:30:34.052+00:00
-modified: 2026-02-24T17:11:00.449+00:00
+created: 2026-02-24T21:16:42.219+00:00
+modified: 2026-02-25T00:16:37.527+00:00
 cssclasses: ""
 ---
 
 
 # Building Understanding of Common LTCs & Self-Management Guidance 
-- [i] We are not expected to be experts in all health conditions just have a good level of understanding 
+⚠️ We are not expected to be experts in all health conditions just have a good level of understanding.
 
 
 # Diabetes
@@ -371,26 +371,8 @@ Investigated the best language used to describe MUS by practioner
 
 ```mermaid
 graph LR
-    %% Styling
-    classDef root fill:#fcf3cf,stroke:#b7950b,stroke-width:2px,color:#000,font-weight:bold,font-size:16px
-    classDef psych fill:#ebdef0,stroke:#6c3483,stroke-width:2px,color:#000,font-weight:bold
-    classDef neuro fill:#e8f8f5,stroke:#117a65,stroke-width:2px,color:#000,font-weight:bold
-    classDef psychi fill:#eaf2f8,stroke:#2874a6,stroke-width:2px,color:#000,font-weight:bold
-    classDef term fill:#ffffff,stroke:#7f8c8d,stroke-width:1px,color:#000
 
-    %% Nodes
-    Root["Best language to<br/>describe MUS"]:::root
-
-    Psych["Psychologists"]:::psych
-    Neuro["Neurologists"]:::neuro
-    Psychi["Psychiatrists<br/>(Mixed views)"]:::psychi
-
-     Styling
-    classDef rootBox fill:#f0e68c,stroke:#fff,stroke-width:2px,color:#000,font-weight:bold,font-size:16px,text-align:center
-    classDef qBox fill:#4b70cc,stroke:none,color:#fff,font-size:16px,font-style:italic,text-align:center
-    classDef aBox fill:#dadef0,stroke:none,color:#000,font-size:16px,text-align:left
-
-    %% Root Node
+     Root Node
     Root["Question of<br/>Causation"]:::rootBox
 
     %% Question 1
@@ -401,7 +383,7 @@ graph LR
     Q2["Blocked out memories of<br/>past trauma results in<br/>Medically Unexplained<br/>Symptoms:"]:::qBox
     A2["• Psychiatrists 58% Agree 42% Somewhat agree<br/>• Neurologists 44% Agree 11.1% Somewhat agree<br/>• Psychologists 31.7% Agree 42.4% Somewhat agree"]:::aBox
     
-    %% Connections
+   
     Root --> Q1
     Q1 --- A1
 
