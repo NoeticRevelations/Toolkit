@@ -7,14 +7,15 @@
 @use "./syntax.scss";
 @use "./callouts.scss";
 
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap');
 
 // 2. Map Baseline UI Custom Variables
 :root {
   --font-interface-theme: 'Inter', sans-serif;
   --font-text-theme: 'Inter', sans-serif;
   --bodyFont: var(--font-text-theme);
-  --headerFont: var(--font-interface-theme);
-  
+  --headerFont: 'Instrument Serif', serif;
+
   --anim-speed-modifier: 1;
   --anim-duration-moderate: calc(320ms * var(--anim-speed-modifier));
   --corner-smoothing: system-ui;
@@ -38,12 +39,27 @@
   --light: #ffffff;
   --lightgray: #e5e5e5;
   --gray: #b8b8b8;
-  --darkgray: #383a42; /* Emulates Baseline's 'code-normal' */
+  --darkgray: #383a42;
+  /* Emulates Baseline's 'code-normal' */
   --dark: #2c2d32;
   --secondary: var(--color-blue);
   --tertiary: var(--color-cyan);
-  --highlight: rgba(106, 173, 250, 0.15); /* Translucent Blue */
-  --textHighlight: rgba(224, 205, 99, 0.4); /* Translucent Yellow */
+  --highlight: rgba(106, 173, 250, 0.15);
+  /* Translucent Blue */
+  --textHighlight: rgba(224, 205, 99, 0.4);
+  /* Translucent Yellow */
+
+  /* Baseline Code Colors */
+  --code-normal: #383a42;
+  --code-comment: #b6b9c5;
+  --code-function: #b76b02;
+  --code-keyword: #e45749;
+  --code-property: #62afef;
+  --code-punctuation: #383a42;
+  --code-string: #0d97b3;
+  --code-tag: #e45749;
+  --code-value: #a626a4;
+  --code-background: #fafafa;
 }
 
 // 4. Emulate Baseline Dark Theme
@@ -59,15 +75,31 @@
   --color-pink: rgb(222, 103, 147);
 
   /* Quartz Variable Overrides */
-  --light: #1e1e1e; /* Clean baseline dark background */
+  --light: #1e1e1e;
+  /* Clean baseline dark background */
   --lightgray: #393939;
   --gray: #646464;
-  --darkgray: #abb2bf; /* Emulates Baseline's 'code-normal' */
+  --darkgray: #abb2bf;
+  /* Emulates Baseline's 'code-normal' */
   --dark: #ececec;
   --secondary: var(--color-blue);
   --tertiary: var(--color-cyan);
-  --highlight: rgba(86, 148, 218, 0.15); /* Translucent Blue */
-  --textHighlight: rgba(196, 180, 94, 0.4); /* Translucent Yellow */
+  --highlight: rgba(86, 148, 218, 0.15);
+  /* Translucent Blue */
+  --textHighlight: rgba(196, 180, 94, 0.4);
+  /* Translucent Yellow */
+
+  /* Baseline Code Colors */
+  --code-normal: #abb2bf;
+  --code-comment: #5c6370;
+  --code-function: #d19a66;
+  --code-keyword: #e16d76;
+  --code-property: #62afef;
+  --code-punctuation: #abb2bf;
+  --code-string: #58b6c2;
+  --code-tag: #e16d76;
+  --code-value: #c678de;
+  --code-background: #282c34;
 }
 
 // 5. Integrate Quartz Base Formatting
@@ -89,7 +121,7 @@ body {
   font-family: var(--bodyFont);
   color: var(--darkgray);
   // Add Baseline's smooth transition for light/dark mode toggling
-  transition: background-color var(--anim-duration-moderate); 
+  transition: background-color var(--anim-duration-moderate);
 }
 
 .text-highlight {
@@ -103,3 +135,23 @@ body {
   color: var(--darkgray);
 }
 
+// 6. Typography & Code Overrides
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headerFont);
+  font-weight: normal;
+}
+
+code {
+  color: var(--code-normal);
+  background-color: var(--code-background);
+}
+
+pre {
+  background-color: var(--code-background);
+  border: 1px solid var(--lightgray);
+}
