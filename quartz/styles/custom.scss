@@ -1,3 +1,84 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+// Quartz 4 custom SCSS replicating Obsidian Baseline theme
+// https://github.com/aaaaalexis/obsidian-baseline
+
+:root {
+  // Typography mapping
+  --headerFont: 'Instrument Serif', serif;
+  --bodyFont: 'Inter', sans-serif;
+}
+
+:root[saved-theme="light"] {
+  // Light Theme palette
+  --light: #fafafa;
+  --lightgray: #e5e5e5;
+  --gray: #b8b8b8;
+  --darkgray: #4e4e4e;
+  --dark: #2b2b2b;
+  --secondary: #6aadfa;    // Baseline blue
+  --tertiary: #fe7070;     // Baseline red
+  --highlight: rgba(106, 173, 250, 0.15);
+  --textHighlight: rgba(224, 205, 99, 0.5); // Baseline yellow
+
+  // Code Palette
+  --code-normal: #383a42;
+  --code-comment: #b6b9c5;
+  --code-function: #b76b02;
+  --code-keyword: #e45749;
+  --code-property: #62afef;
+  --code-string: #0d97b3;
+  --code-value: #a626a4;
+}
+
+:root[saved-theme="dark"] {
+  // Dark Theme palette
+  --light: #161618;
+  --lightgray: #393639;
+  --gray: #646464;
+  --darkgray: #d4d4d4;
+  --dark: #ebebec;
+  --secondary: #5694da;     // Baseline blue
+  --tertiary: #d95a5f;      // Baseline red
+  --highlight: rgba(86, 148, 218, 0.15);
+  --textHighlight: rgba(196, 180, 94, 0.5); // Baseline yellow
+
+  // Code Palette
+  --code-normal: #abb2bf;
+  --code-comment: #5c6370;
+  --code-function: #d19a66;
+  --code-keyword: #e16d76;
+  --code-property: #62afef;
+  --code-string: #58b6c2;
+  --code-value: #c678de;
+}
+
+// Apply colors mapped from Obsidian Baseline highlighting variables
+.highlight {
+  .hljs-keyword, .hljs-tag, .hljs-built_in {
+    color: var(--code-keyword);
+  }
+  .hljs-function, .hljs-title {
+    color: var(--code-function);
+  }
+  .hljs-string, .hljs-meta {
+    color: var(--code-string);
+  }
+  .hljs-number, .hljs-literal, .hljs-type, .hljs-value {
+    color: var(--code-value);
+  }
+  .hljs-comment, .hljs-quote {
+    color: var(--code-comment);
+    font-style: italic;
+  }
+  .hljs-property, .hljs-attr {
+    color: var(--code-property);
+  }
+  color: var(--code-normal);
+}
+
+// Adjust headers
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
