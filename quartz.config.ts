@@ -26,7 +26,7 @@ const config: QuartzConfig = {
         body: "Inter",              // Updates the body
         code: "IBM Plex Mono",      // (You can leave your existing code font)
       },
- colors: {
+   colors: {
         lightMode: {
           light: "#ffffff",
           lightgray: "#e5e5e5",
@@ -35,7 +35,7 @@ const config: QuartzConfig = {
           dark: "#2c2d32",
           secondary: "#f5bb1aff",
           tertiary: "#db4338ff",
-          highlight: "rgba(241, 255, 45, 0.99)",
+          highlight: "rgba(255, 241, 45, 0.4)",
           textHighlight: "rgba(255, 236, 131, 0.61)",
         },
         darkMode: {
@@ -46,7 +46,7 @@ const config: QuartzConfig = {
           dark: "#ececec",
           secondary: "#f5bb1aff",
           tertiary: "#db4338ff",
-          highlight: "rgba(132, 219, 82, 0.66)",
+          highlight: "rgba(204, 197, 99, 0.37)",
           textHighlight: "rgba(196, 180, 94, 0.4)",
         },
       },
