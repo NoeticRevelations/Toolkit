@@ -1,20 +1,3 @@
-
-
-| Time          | Session                                                                                                                                                                                                          |
-| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 09:00 – 09:25 | (optional Drop-in Support Session) the teaching team will be around to answer any questions before the day starts. [Click here](https://teams.microsoft.com/meet/34212391037048?p=OIxFSDtl1n1B4zHxE6) to access. |
-| 09:30         | Reminder of Key Messages from Day 3 & Introduction to the focus for Day 4: Working with Illness Beliefs                                                                                                          |
-| 9:45          | Use of Physical Symptoms Diary & Pacing Strategies: Roleplay Practice<br><br>+ Reflective Logs                                                                                                                   |
-| 11:00         | Break (15 mins)                                                                                                                                                                                                  |
-| 11:15         | Illness Beliefs, Self-Management & Health Outcomes<br><br>Inc. Small Group Task                                                                                                                                  |
-| 12:30         | Lunch (1 hour)                                                                                                                                                                                                   |
-| 13:30         | Illness Beliefs & CMHP Maintenance Cycles: Informing LCBT interventions  <br>Inc. Small Group Task                                                                                                               |
-| 14:45         | Break (15 mins)                                                                                                                                                                                                  |
-| 15:00         | Cognitive Restructuring & Behavioural Experiments to treat Depression & Panic in context of LTC/MUS                                                                                                              |
-| 15:30         | Clinical Decision-Making Task: Case Studies<br><br>Inc. Small Group Task                                                                                                                                         |
-| 16.20-16:30   | Final Questions & Reflections                                                                                                                                                                                    |
-
-
 ## Exploring Illness Beliefs to inform LICBT Support 
 
 Outcomes of today: 
@@ -219,3 +202,52 @@ Common NATS in LTCs can centre around:
 
 #### Unhelpful Thinking Styles 
 **Rumination** - Are attempts to gain coherence or make sense of what has or will happen to us and our life. However, once a negative view is established it alters our behaviours to become self-perpetuating. 
+
+
+
+### Behavioural Experiments in the context of LTCs 
+We know that Behavioural Experiments can help people to test out and possibly strengthen an alternative, more balanced and realistic perspective. This allows the gathering of experiential evidence rather than purely rational or reason based evidence. 
+
+**When would we use them?**
+We would only use them towards Depression or Panic Disorder as a problem descriptor:
+- If no improvement in symptoms (ABCEs) 
+- To continue to work towards goals 
+- Patient choice
+- If the revised thought can be tested out in practice
+
+#### Good Practice Tips 
+Establish BE within the spirit of curiosity
+- Do not assume anything 
+- Patient is the expert in their own experience 
+- Testing things out is usually helpful 
+
+Low intensity BEs should only be set to be done as homework rather than done in-session. 
+
+On occasions it may be helpful/necessary to enlist the help of others to assist the patient undertake the BE (co-therapist)
+- Identified when designing the BE with the patient or whilst problem-solving
+- Beware of the potential for safety behaviours
+
+#### Safety Behaviours 
+Always be mindful of safety behaviours when planning a BE. 
+- Do the help the patient cope with stress?
+- Is it hindering learning?
+- Support to keep them initially can help engagement but acknowledge removal at some point linking with goals. 
+
+BE can be used to test a prediction about what would happen when a safety behaviour is dropped. 
+
+
+> [!danger]+ Safety First
+> If you or the patient has any concerns there could be risky tied with the BE then seek medical advice.
+
+**What are some examples of CR with BE's?**
+
+
+#### What if it goes wrong?
+Things may not always go to plan:
+- They may not feel confident in doing the plan
+- May have unexpected results 
+
+The reviews are always a learning experience!
+- What stopped it? Was it internal or external?
+- Did they do it correctly or understand?
+- What would help to do it? 

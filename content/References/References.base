@@ -1,0 +1,8 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("References")
+    markers: bullet
+    indentProperties: false

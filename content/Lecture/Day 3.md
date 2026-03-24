@@ -1,17 +1,3 @@
-| Time              | Session Title            | Key Activities                                             |
-| :---------------- | :----------------------- | :--------------------------------------------------------- |
-| **09:00 – 09:25** | Optional Drop-in Support | Q&A with the teaching team                                 |
-| **09:30 – 09:40** | Introduction to Day 3    | Review of Day 2; Shared Understanding & Treatment Planning |
-| **09:40 – 10:45** | Maintenance Cycles       | Info-giving, Roleplay, Treatment Planning & COM-B          |
-| **10:45 – 11:00** | **Break**                | —                                                          |
-| **11:00 – 12:30** | LTCs & Physical Symptoms | Transition/Adjustment, Group Task, Problem Solving & SOC   |
-| **12:30 – 13:30** | **Lunch**                | —                                                          |
-| **13:30 – 14:00** | Physical Symptoms Diary  | Lecture and Discussion                                     |
-| **14:00 – 15:15** | Activity Management      | Pacing Strategies & Small Group Discussions                |
-| **15:15 – 15:30** | **Break**                | —                                                          |
-| **15:30 – 16:20** | Pacing (Continued)       | Continued Strategies & Small Group Discussions             |
-| **16:20 – 16:30** | Wrap-up                  | Final Questions & Reflections                              |
-
 # Lecture 1 - Information Giving, Developing Shared Understanding & Treatment Planning 
 
 - Consideration around delivering the probable diagnosis

@@ -4,16 +4,6 @@ created: 2026-02-24T21:16:42.163+00:00
 modified: 2026-02-24T17:11:02.000+00:00
 cssclasses: ""
 ---
-
-# Agenda 
-
-### **Afternoon: Practice & Application**
-- **12:45 – 13:30:** Lunch.
-- **13:30 – 15:00:** **Management of CMHPs.** Addressing barriers to access and evidence-based guidelines for multiple health conditions.
-- **15:00 – 15:15:** Break.
-- **15:15 – 16:15:** **Practitioner Adaptations.** Exploring assessment areas, patient self-management, and the CMHP-physical health relationship (including roleplay).
-- **16:15 – 16:30:** Wrapping up and final questions.
-
 # Todays Focus 
 1. Background to CMHP in the context of LTCs 
 2. Principles of Chronic Disease Management
