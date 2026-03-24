@@ -11,16 +11,6 @@
 }
 
 :root[saved-theme="light"] {
-  // Light Theme palette
-  --light: #fafafa;
-  --lightgray: #e5e5e5;
-  --gray: #b8b8b8;
-  --darkgray: #4e4e4e;
-  --dark: #2b2b2b;
-  --secondary: #6aadfa;    // Baseline blue
-  --tertiary: #fe7070;     // Baseline red
-  --highlight: rgba(106, 173, 250, 0.15);
-  --textHighlight: rgba(224, 205, 99, 0.5); // Baseline yellow
 
   // Code Palette
   --code-normal: #383a42;
@@ -33,16 +23,6 @@
 }
 
 :root[saved-theme="dark"] {
-  // Dark Theme palette
-  --light: #161618;
-  --lightgray: #393639;
-  --gray: #646464;
-  --darkgray: #d4d4d4;
-  --dark: #ebebec;
-  --secondary: #5694da;     // Baseline blue
-  --tertiary: #d95a5f;      // Baseline red
-  --highlight: rgba(86, 148, 218, 0.15);
-  --textHighlight: rgba(196, 180, 94, 0.5); // Baseline yellow
 
   // Code Palette
   --code-normal: #abb2bf;

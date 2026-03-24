@@ -20,22 +20,22 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
-        fontOrigin: "googleFonts",
-        typography: {
+      fontOrigin: "googleFonts",
+      typography: {
         header: "Instrument Serif", // Updates the headings
         body: "Inter",              // Updates the body
         code: "IBM Plex Mono",      // (You can leave your existing code font)
       },
-   colors: {
+      colors: {
         lightMode: {
           light: "#ffffff",
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#383a42",
           dark: "#2c2d32",
-          secondary: "#f5bb1aff",
-          tertiary: "#db4338ff",
-          highlight: "rgba(255, 241, 45, 0.4)",
+          secondary: "#8914f7ff",
+          tertiary: "#776a83ff",
+          highlight: "rgba(211, 173, 173, 0.42)",
           textHighlight: "rgba(255, 236, 131, 0.61)",
         },
         darkMode: {
