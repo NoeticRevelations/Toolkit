@@ -52,6 +52,7 @@ There are several components to creating an Illness Representation:
 5. **Control/Cure** - Can something be done to control the threat 
 
 Consider the following example: 
+
 ```mermaid
 graph TD
     %% Main Title
@@ -93,6 +94,7 @@ Evidence shows that illness beliefs are consistent determinant of the QoL and Se
 - Illness beliefs in depression affects outcomes (Lynch, Moore, Moss-Morris, Kendrick, 2015)
 - Contributes to the mismatch between patient and professional (Cohen et al, 1994)
 - Professionals acknowledging patient representations enhances person centredness (Noel et al, 2005)
+
 ```mermaid
 flowchart LR
     subgraph COM [COM Components]
@@ -130,6 +132,7 @@ Our illness beliefs can impact how we respond to physical health problems and me
 - I also drives the patients motivation and ability to change. 
 
 Consider the following beliefs: 
+
 ```mermaid
 flowchart TD
     IIB([Inaccurate Illness Beliefs])
