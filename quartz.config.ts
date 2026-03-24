@@ -22,9 +22,9 @@ const config: QuartzConfig = {
     theme: {
       fontOrigin: "googleFonts",
       typography: {
-        header: "Instrument Serif", // Updates the headings
-        body: "Inter",              // Updates the body
-        code: "IBM Plex Mono",      // (You can leave your existing code font)
+        header: "Lexend", // Updates the headings
+        body: "Lexend",              // Updates the body
+        code: "Lexend",      // (You can leave your existing code font)
       },
       colors: {
         lightMode: {

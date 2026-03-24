@@ -372,7 +372,6 @@ Investigated the best language used to describe MUS by practioner
 ```mermaid
 graph LR
 
-     Root Node
     Root["Question of<br/>Causation"]:::rootBox
 
     %% Question 1

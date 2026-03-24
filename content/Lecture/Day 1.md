@@ -70,33 +70,30 @@ There is no definitive list of LTCs and can include diabetes, asthma, coronary h
 ## Illness Burden 
 ```mermaid
 graph TD
-    %% Styling
+   
     classDef core fill:#063b36,stroke:#fff,stroke-width:2px,color:#fff,font-weight:bold
     classDef cat fill:#e8e8e8,stroke:#333,stroke-width:1px,color:#000,font-weight:bold
     classDef item fill:#ffffff,stroke:none,color:#000
 
-    %% Core Node
     Root{"Impact of<br/>LTC / MUS"}:::core
 
-    %% Categories
+    
     Root --- Ind["Individual"]:::cat
     Root --- Fam["Family"]:::cat
     Root --- HS["Health Services"]:::cat
     Root --- Soc["Society"]:::cat
 
-    %% Individual Branch
+   
     Ind --- I1["Symptom Burden"]:::item
     Ind --- I2["Treatment Burden"]:::item
     Ind --- I3["Disability"]:::item
     Ind --- I4["Distress"]:::item
 
-    %% Family Branch
     Fam --- F1["Treatment Burden"]:::item
     Fam --- F2["Caring Roles"]:::item
     Fam --- F3["Financial"]:::item
     Fam --- F4["Distress"]:::item
 
-    %% Health Services Branch
     HS --- H1["50% of GP visits"]:::item
     HS --- H2["65% of Secondary care visits"]:::item
 
@@ -104,12 +101,11 @@ graph TD
     classDef phGroup fill:#063b36,stroke:#fff,stroke-width:2px,color:#fff,text-align:center
     classDef mhGroup fill:#bbf5d8,stroke:#063b36,stroke-width:2px,color:#063b36,text-align:center
 
-    %% Nodes
+   
     PH["<b>Physical Health</b><br/>---<br/>Physiological Changes<br/>Meaning for individual<br/>Medication<br/>Physical Distress<br/>Symptom Burden<br/>Treatment Burden<br/>Lack of Exercise<br/>Disability<br/>Social Isolation<br/>Impact on Relationships"]:::phGroup
 
     MH["<b>Mental Health</b><br/>---<br/>Physiological Changes<br/>Poor treatment adherence<br/>Poor diet<br/>Self harm<br/>Smoking<br/>Medication<br/>Substance Misuse<br/>Risk Taking<br/>Lack of exercise<br/>Poor self-care"]:::mhGroup
 
-    %% Connections
     PH --> MH
     MH --> PH
 ```
