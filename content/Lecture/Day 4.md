@@ -181,9 +181,14 @@ Here is an example of it applied:
 $$
 \text{Anxiety Level} = \frac{\text{I'm likely to fall and seriously hurt myself}}{\text{I won't be able to get back up, and nobody will help}}
 $$
+<br>
+
 $$
 \text{Anxiety} = \frac{\text{Danger: "If I stutter, everyone will think I'm incompetent"}}{\text{Coping: "I will freeze, turn red, and have to leave the room"}}
 $$
+
+<br>
+
 $$
 \text{Anxiety} = \frac{\text{Danger: "I might stumble, but people focus on the content"}}{\text{Coping: "I can take a breath, correct myself, and use my notes"}}
 $$

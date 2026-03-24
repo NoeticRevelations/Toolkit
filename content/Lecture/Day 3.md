@@ -32,10 +32,10 @@ Give appropriate information about Probable Diagnosis as usual, acknowledging an
 Introduce the CBT model using their example to explain their cycle and it's links to LTC.
 
 **T1 Diabetes**
-![[Lecture/Images/Pasted image 20260323095143.png]]
+![[Pasted image 20260323095143.png]]
 
 **COPD**
-![[Lecture/Images/Pasted image 20260323095827.png]]
+![[Pasted image 20260323095827.png]]
 
 Highlight how it impacts the ABCEs
 - How this has a knock on effect on LTCs (how pain or fatigue is experienced) or self-management and regulation. 
@@ -86,7 +86,7 @@ What this covers:
 TLDR: A period of psychological and structural change where an individual moves from one life stage, role, or state of being to another. It is typically understood not just as a situational shift, but as the internal psychological process of adapting to that shift.
 
 - **Key components:** Relinquishing a previous role or reality, navigating an ambiguous "in-between" phase (liminality), and constructing a new identity or routine.
-![[Lecture/Images/Pasted image 20260323120036.png]]
+![[Pasted image 20260323120036.png]]
 
 > [!question]+ Why is it important to consider adjustment?
 > - Illness acceptance is associated with higher levels of subjective health (Karademas, Tsagaraki & Lambrou, 2009)
@@ -105,7 +105,7 @@ In this model normal adjustment means that there is an inverse relationship betw
 
 NOTE: It is not linear and we can slide into any stages at any time. 
 
-![[Lecture/Images/Pasted image 20260323115533.png]]
+![[Pasted image 20260323115533.png]]
 
 ___
 
@@ -121,7 +121,7 @@ The behavioral and cognitive process of maintaining or restoring balance (homeos
 | **Illness in foreground** – focus on illness, symptoms and negative outcomes of disease. View disease as controlling life. Absorbed in illness.                    | **Extraordinariness** – phase of turmoil and distress. State of feeling alienated from familiar life and loss of control over life circumstances. | Stage of uncertainty<br>Stage of disruption                     | **Living an illness** – stages of shifting sands, staying afloat, and weathering storms. Focus on illness. |
 | **Wellness in foreground** – focus on being as well as possible. Emphasis on the self not the diseased body. Envision opportunity and possibility despite illness. | **Ordinariness** – phase of reconstructing life with illness. Finding a place for the illness to fit into context of life.                        | Stage of striving to regain self<br>Stage of regaining wellness | **Living a life** – stage of rescuing oneself and navigating a life. Focus on meaningful life pursuits.    |
 
-![[Lecture/Images/Pasted image 20260323112752.png]]
+![[Pasted image 20260323112752.png]]
 This flow-chart looks at adjustment as having a helpful representation/schemas of themselves and the world. If there is negative or unhelpful schemas then the outcome is anxiety and low mood. 
 
 **TLDR**: The process of synthesizing disparate psychological elements—such as thoughts, emotional responses, traumatic memories, or a new physical condition—into a cohesive and unified sense of self.
@@ -509,7 +509,7 @@ Still have a plan for the duration and how much activity you will do but - you w
 
 ## Incorporating Pacing or Energy Management into BA
 
-![[Lecture/Images/Pasted image 20260323162114.png]]
+![[Pasted image 20260323162114.png]]
 
 **Which plan do we follow?**
 If you feel worse/ having a bad day in terms of your health condition (e.g. CFS, Long Covid..) then yes stop or adjust your plan. If you feel worse in terms of your depression, it is likely to be more helpful to try to stick to the plan designed to bring about positive changes to your mood.
