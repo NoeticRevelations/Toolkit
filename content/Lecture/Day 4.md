@@ -52,29 +52,30 @@ There are several components to creating an Illness Representation:
 5. **Control/Cure** - Can something be done to control the threat 
 
 Consider the following example: 
+
 ```mermaid
 graph TD
-    %% Main Title
+    
     Title[<B>Coronary Heart Disease</B>]
 
-    %% Sub-categories
+    
     Identity[<B>Identity:</B><br/>A ‘bad’ heart]
     Timeline[<B>Timeline:</B><br/>This is going to get worse]
     Consequences[<B>Consequences:</B><br/>This is life threatening]
     Cause[<B>Cause:</B><br/>My dad had a bad heart, it’s hereditary]
     Control[<B>Control / Cure:</B><br/>I must rest and not exert myself]
 
-    %% Connections
+    
     Title <--> Identity
     Title <--> Timeline
     Title <--> Consequences
     Title <--> Cause
     Title <--> Control
 
-    %% Define a class for styling
+    
     classDef yellowBox fill:#F9E79F,stroke:#D4AC0D,stroke-width:2px,rx:5,ry:5,color:#333;
 
-    %% Apply the class to all nodes
+    
     class Title,Identity,Timeline,Consequences,Cause,Control yellowBox;
 ```
 
@@ -93,6 +94,7 @@ Evidence shows that illness beliefs are consistent determinant of the QoL and Se
 - Illness beliefs in depression affects outcomes (Lynch, Moore, Moss-Morris, Kendrick, 2015)
 - Contributes to the mismatch between patient and professional (Cohen et al, 1994)
 - Professionals acknowledging patient representations enhances person centredness (Noel et al, 2005)
+
 ```mermaid
 flowchart LR
     subgraph COM [COM Components]
@@ -110,10 +112,10 @@ flowchart LR
         B[Behaviour]
     end
 
-    %% Callout/Speech Bubble
+    
     IIB([Inaccurate Illness Beliefs]) -.-> C
 
-    %% Interaction Arrows
+    
     C <--> B
     M <--> B
     O <--> B
@@ -130,23 +132,24 @@ Our illness beliefs can impact how we respond to physical health problems and me
 - I also drives the patients motivation and ability to change. 
 
 Consider the following beliefs: 
+
 ```mermaid
 flowchart TD
     IIB([Inaccurate Illness Beliefs])
 
-    %% Depression
+    
     IIB -->|Drives NATs| DEP[Depression]
     DEP --- D_T["'I'll never feel any better / I can't do anything anymore'"]
 
-    %% Panic Disorder
+    
     IIB -->|Drives Catastrophic Misinterpretation| PD[Panic Disorder]
     PD --- P_T["'I'm suffocating / my heart is going to explode!'"]
 
-    %% Agoraphobia
+    
     IIB -->|Drives Avoidance| AG[Agoraphobia]
     AG --- A_T["'I'm going to fall down or faint'"]
 
-    %% GAD
+    
     IIB -->|Drives Hypothetical Worries| GAD[GAD]
     GAD --- G_T["'What if it gets worse and I lose my job?'"]
 
@@ -181,6 +184,7 @@ Here is an example of it applied:
 $$
 \text{Anxiety Level} = \frac{\text{I'm likely to fall and seriously hurt myself}}{\text{I won't be able to get back up, and nobody will help}}
 $$
+
 <br>
 
 $$
