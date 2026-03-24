@@ -158,15 +158,15 @@ ___
 ```mermaid
 graph LR
     %% Core concept
-    Root((Factors Influencing <br/> Successful Transition))
+    Root(("Factors Influencing <br/> Successful Transition"))
 
     %% Main Categories
-    M[Meaning of The Life Transition]
-    E[Expectation of Events]
-    K[Level of Knowledge and Skill]
-    R[Resources in the Environment]
-    C[Capacity to plan for change]
-    W[Emotional & Physical Wellbeing]
+    M["Meaning of The Life Transition"]
+    E["Expectation of Events"]
+    K["Level of Knowledge and Skill"]
+    R["Resources in the Environment"]
+    C["Capacity to plan for change"]
+    W["Emotional & Physical Wellbeing"]
 
     Root --> M
     Root --> E
@@ -199,8 +199,6 @@ graph LR
     W --> W1["Perceived stress"]
     W --> W2["Hope vs Hopelessness"]
     W --> W3["Health Behaviours <br/>(Dennison et al., 2009)"]
-
-
 ```
 ___
 ## Supporting Transition to LTC/PPS using LICBT interventions
